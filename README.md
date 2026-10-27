@@ -92,15 +92,15 @@ The GLENDA dataset is not included in this repository and must be downloaded sep
 The HTML export is provided for convenient, read-only access to the analysis. 
 
 ### Viewing the HTML Export
-Open the `GLENDA_EDA.html` in a web browser to explore the analysis, visualizations, and results without installing Python, Jupyter Notebook, or downloading the GLENDA dataset.
+Open the `glenda-eda.html` in a web browser to explore the analysis, visualizations, and results without installing Python, Jupyter Notebook, or downloading the GLENDA dataset.
 
 ### Running the Jupyter Notebook
 To run the notebook locally, follow these steps:
 1. **Download the dataset.** Obtain GLENDA v1.0 from the [official dataset page](https://ftp.itec.aau.at/datasets/GLENDA/v1_0/).
 2. **Extract the dataset.** Unzip the downloaded folder and ensure the GLENDA_v1.0 folder is available locally.
-3. **Set up the project directory.** Place the `GLENDA_v1.0` folder in the same directory as GLENDA_EDA.ipynb.
+3. **Set up the project directory.** Place the `GLENDA_v1.0` folder in the same directory as glenda-eda.ipynb.
 4. **Install the required dependencies.** Install the Python packages listed in requirements.txt in your Python environment. 
-5. **Open the notebook.** Open GLENDA_EDA.ipynb using JupyterLab or Jupyter Notebook. These environments can be installed and launched independently or accessed through distributions such as Anaconda.
+5. **Open the notebook.** Open glenda-eda.ipynb using JupyterLab or Jupyter Notebook. These environments can be installed and launched independently or accessed through distributions such as Anaconda.
 6. **Run the notebook.** Execute the cells in order, starting from the beginning. Ensure the dataset paths are correct before running the EDA notebook. 
    
 ## Requirements 
